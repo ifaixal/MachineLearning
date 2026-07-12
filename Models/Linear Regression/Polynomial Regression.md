@@ -1,0 +1,7 @@
+What if your data is actually more complex than a simple straight line? Surprisingly, you can actually use a linear model to fit nonlinear data. ==A simple way to do this is to add powers of each feature as new features==, then train a linear model on this extended set of features. This technique is called Polynomial Regression.
+
+For smaller values of degree in polynomial regression the model can under-fit meanwhile for larger values of degree in polynomial regression the model can over-fit.
+
+Note that when there are multiple features, Polynomial Regression is capable of finding relationships between features. This is made possible by the fact that PolynomialFeatures also adds all combinations of features up to the given degree. For example, if there were two features a and b, PolynomialFeatures with degree=3 would not only add the features a<sup>2</sup> a<sup>3</sup> b<sup>2</sup> and b<sup>3</sup>, but also the combinations ab, a<sup>2</sup>b and ab<sup>2</sup>.
+
+While studying polynomial regression I had a thought what if we are able to model the equation that generated our dataset. In such cases our problem of the machine learning will be solved. Since our core objective is to find an approximation model that mimics or predict the distribution of our dataset.
