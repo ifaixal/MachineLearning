@@ -1,6 +1,6 @@
 # 📚 Machine Learning Course Notes & Code
 
-Welcomee to my **Machine Learning Course Repository**! This repository contains my personal notes, code implementations, practice exercises, and experiments created while learning Machine Learning.
+Welcome to my **Machine Learning Course Repository**! This repository contains my personal notes, code implementations, practice exercises, and experiments created while learning Machine Learning.
 
 The goal of this repository is to document my learning journey and serve as a quick reference for future projects.
 
